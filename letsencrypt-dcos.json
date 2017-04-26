@@ -37,7 +37,7 @@
     "LETSENCRYPT_EMAIL": "rakesh@easidoo.com"
   },
   "labels": {
-    "HAPROXY_0_VHOST": "easidoo.com,quiddoo.com,ukcelebrity.com,mm.easidoo.com",
+    "HAPROXY_0_VHOST": "easidoo.com,quiddoo.com,ukcelebritynews.com,mm.easidoo.com",
     "HAPROXY_GROUP": "external",
     "HAPROXY_0_PATH": "/.well-known/acme-challenge"
   },
