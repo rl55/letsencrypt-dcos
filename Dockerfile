@@ -14,6 +14,8 @@ RUN apt-get update \
   && ./certbot-auto --os-packages-only --noninteractive \
   && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+RUN apt-get -y update
+
 EXPOSE 80
 
 WORKDIR /certbot
